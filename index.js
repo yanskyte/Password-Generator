@@ -17,8 +17,8 @@ function randomPassword(length) {
 function generatePassword(length) {
   const password = randomPassword(length)
  // const encryptedPassword = "*".repeat(password.length)
-  document.getElementById("firstPassword").textContent = password;
-  document.getElementById("secondPassword").textContent = password;
+  document.getElementById("firstPassword").textContent = password; //replaced password with encryptedPassword
+  document.getElementById("secondPassword").textContent = password; //replaced password with encryptedPassword
 }
 
 function reset(){
